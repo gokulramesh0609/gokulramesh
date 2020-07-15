@@ -1,0 +1,53 @@
+<body>
+
+    <h1>1. who is the current captain of Indian cricket team ?</h1>
+    <div class="inline">
+    <input type="radio" name="captain" value="Dhoni"  (change)="radioChangeHandler($event)"><span >Dhoni</span>
+    <input type="radio" name="captain" value="Virat Kholi"  (change)="radioChangeHandler($event)"><span>Virat Kohli</span>
+    <input type="radio" name="captain" value="Rohit Sharma"  (change)="radioChangeHandler($event)"><span>Rohit Sharma</span>
+    </div>
+    <h2>you selected: {{temp1}}</h2>
+    
+        <h1>2. what does LBW stands for ?</h1>
+        <div class="inline">
+    <input type="radio" name="LBW" value="Leg Before Wicket"  (change)="radioChangeHandler($event)"><span>Leg Before Wicket</span>
+    <input type="radio" name="LBW" value="Left before Wicket"  (change)="radioChangeHandler($event)"><span>Left before Wicket</span>
+    <input type="radio" name="LBW" value="left bounce wicket"  (change)="radioChangeHandler($event)"><span>Left bounce wicket</span>
+    </div>
+    <h2>you selected: {{temp2}}</h2>
+    
+    <h1>3. Dravid is also called as ?</h1>
+    <div class="inline">
+    <input type="radio" name="nickname" value="strength of india"  (change)="radioChangeHandler($event)"><span>strength of india</span>
+    <input type="radio" name="nickname" value="Great Wall Of India"  (change)="radioChangeHandler($event)"><span>Great Wall Of India</span>
+    <input type="radio" name="nickname" value="master of india"  (change)="radioChangeHandler($event)"><span>master of india</span>
+    </div>
+    <h2>you selected: {{temp3}}</h2>
+  
+    <h1>4. who is short Tempered in Indian cricket team ?</h1>
+    <div class="inline">
+    <input type="radio" name="short-temper" value="Virat kohli"  (change)="radioChangeHandler($event)"><span>Virat kohli</span>
+    <input type="radio" name="short-temper" value="Yuvaraj singh"  (change)="radioChangeHandler($event)"><span>Yuvaraj singh</span>
+    <input type="radio" name="short-temper" value="Ganguli"  (change)="radioChangeHandler($event)"><span>Ganguli</span>
+    </div>
+    <h2>you selected: {{temp4}}</h2>
+  
+    <h1>5. how many world cup does India have ?</h1>
+    <div class="inline">
+    <input type="radio" name="cup" value="one"  (change)="radioChangeHandler($event)"><span>one</span>
+    <input type="radio" name="cup" value="Two"  (change)="radioChangeHandler($event)"><span>Two</span>
+    <input type="radio" name="cup" value="three"  (change)="radioChangeHandler($event)"><span>three</span>
+      </div>
+    <h2>you selected: {{temp5}}</h2>
+    <br>
+
+    <button (click)="evaluate()">EVALUATE</button>
+    <h1>{{result}}</h1>
+  </body>
+
+
+
+    <!-- <a routerLink="display-answers"><span id="forsubmit">SUBMIT</span></a>
+    <router-outlet></router-outlet> -->
+
+    

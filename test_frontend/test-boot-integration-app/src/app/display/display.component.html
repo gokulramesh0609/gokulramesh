@@ -1,0 +1,11 @@
+<h1>thank you for attending quiz game</h1>
+<br>
+<span id="forscore">{{datatodisplay}} {{marksToDisplay}}</span>
+<br>
+<h1>{{result}}</h1>
+<br>
+<br>
+<button (click)="review()">REVIEW</button>
+<div *ngFor="let obj of question_with_answers">
+    <h1 id="q">{{obj.question}}</h1> <span id="a"> {{obj.answer}}</span>
+</div>
