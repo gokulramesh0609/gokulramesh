@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49015" started-at="2020-07-19T14:11:27Z" finished-at="2020-07-19T14:12:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49015" started-at="2020-07-19T14:11:27Z" finished-at="2020-07-19T14:12:16Z">
+      <class name="com.test.TestMain">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestMain@6dee4f1b]" name="setUp" is-config="true" duration-ms="15677" started-at="2020-07-19T14:11:27Z" finished-at="2020-07-19T14:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forSignIn(java.lang.String, java.lang.String)[pri:1, instance:com.test.TestMain@6dee4f1b]" name="forSignIn" duration-ms="3996" started-at="2020-07-19T14:11:42Z" finished-at="2020-07-19T14:11:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gocool@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forSignIn -->
+        <test-method status="PASS" signature="forSelectCategory()[pri:2, instance:com.test.TestMain@6dee4f1b]" name="forSelectCategory" duration-ms="4800" started-at="2020-07-19T14:11:46Z" finished-at="2020-07-19T14:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forSelectCategory -->
+        <test-method status="PASS" signature="forSelectCloth()[pri:3, instance:com.test.TestMain@6dee4f1b]" name="forSelectCloth" duration-ms="112" started-at="2020-07-19T14:11:51Z" finished-at="2020-07-19T14:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forSelectCloth -->
+        <test-method status="PASS" signature="forPayment()[pri:4, instance:com.test.TestMain@6dee4f1b]" name="forPayment" duration-ms="19266" started-at="2020-07-19T14:11:51Z" finished-at="2020-07-19T14:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forPayment -->
+        <test-method status="PASS" signature="forCloseDriver()[pri:5, instance:com.test.TestMain@6dee4f1b]" name="forCloseDriver" duration-ms="5124" started-at="2020-07-19T14:12:10Z" finished-at="2020-07-19T14:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forCloseDriver -->
+      </class> <!-- com.test.TestMain -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
